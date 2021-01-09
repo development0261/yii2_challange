@@ -1,0 +1,23 @@
+Setup this folder:
+
+1. First clone this project.
+2. After that update vendor folder.
+-> composer update
+3. Fire command in command propmpt
+-> init
+4. Migrate all file
+-> yii migrate
+5. Run the command to run project
+-> yii serve --docroot="@backend/web"
+
+Introduction:
+-------------------
+login details:
+-----------------
+1. 	username: admin
+	password: admin@123
+
+2. I have create models in common/models and controller.
+3. Also create for Layout one folder oadode.
+4. In that folder one webfolder exist that download pdf.
+5. For display I have create One field for foreign key in description_of_goods table business_id. It is a foreign key for oadode id.
